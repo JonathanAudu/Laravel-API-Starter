@@ -1,0 +1,57 @@
+[
+  {
+    "_id": "a7519176-5e75-4ec7-96e8-2dd65ec4cc95",
+    "colId": "d35c6c48-1fa4-4b49-ad9f-e9304a20f0c6",
+    "containerId": "",
+    "name": "Register",
+    "url": "http://127.0.0.1:8000/api/logout",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-10-28T12:24:19.678Z",
+    "modified": "2022-10-28T13:10:50.002Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "*/*",
+        "isDisabled": true
+      },
+      {
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "name",
+          "value": "jonathan",
+          "isDisabled": true
+        },
+        {
+          "name": "email",
+          "value": "jon@gmail.com",
+          "isDisabled": true
+        },
+        {
+          "name": "phone_number",
+          "value": "12345678900",
+          "isDisabled": true
+        },
+        {
+          "name": "password",
+          "value": "1234",
+          "isDisabled": true
+        }
+      ]
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "7|ZigtLcPLEGUzP3lafxrfZUnxal7E533wThzJPYZZ"
+    },
+    "tests": []
+  }
+]
