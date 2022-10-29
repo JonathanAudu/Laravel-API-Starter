@@ -23,6 +23,8 @@ Route::post('register', [AuthController::class, 'register']);
 Route::post('signin', [AuthController::class, 'login']);
 Route::post('logout', [AuthController::class, 'logout']);
 
+Route::post('/reset-password', [AuthController::class, ''] );
+
 
 Route::middleware('auth:sanctum')->group(function () {
 
